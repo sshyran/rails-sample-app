@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
-gem 'rails',          '6.0.3.1'
+gem 'rails',          '6.0.3.4'
 gem 'bcrypt',         '3.1.13'
 gem 'bootstrap-sass', '3.4.1'
 gem 'puma',           '4.3.5'
@@ -19,7 +19,7 @@ end
 group :development do
   gem 'web-console',           '4.0.2'
   gem 'listen',                '3.2.1'
-  gem 'spring',                '2.1.0'
+  gem 'spring',                '2.1.1'
   gem 'spring-watcher-listen', '2.0.1'
 end
 
